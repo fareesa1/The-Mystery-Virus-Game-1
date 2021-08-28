@@ -37,10 +37,10 @@ function preload(){
     "flatboy/png/Idle(10).png","flatboy/png/Idle(11).png","flatboy/png/Idle(12).png","flatboy/png/Idle(13).png","flatboy/png/Idle(14).png",
     "flatboy/png/Idle(15).png")
 
-  player_Dead_img= loadAnimation("flatboy/png/dead(1).png","flatboy/png/dead(2).png","flatboy/png/dead(3).png","flatboy/png/dead(4).png",
-    "flatboy/png/dead(5).png","flatboy/png/dead(6).png","flatboy/png/dead(7).png","flatboy/png/dead(8).png","flatboy/png/dead(9).png",
-    "flatboy/png/dead(10).png","flatboy/png/dead(11).png","flatboy/png/dead(12).png","flatboy/png/dead(13).png","flatboy/png/Idle(14).png",
-    "flatboy/png/Idle(15).png")
+//   player_Dead_img= loadAnimation("flatboy/png/dead(1).png","flatboy/png/dead(2).png","flatboy/png/dead(3).png","flatboy/png/dead(4).png",
+//     "flatboy/png/dead(5).png","flatboy/png/dead(6).png","flatboy/png/dead(7).png","flatboy/png/dead(8).png","flatboy/png/dead(9).png",
+//     "flatboy/png/dead(10).png","flatboy/png/dead(11).png","flatboy/png/dead(12).png","flatboy/png/dead(13).png","flatboy/png/Idle(14).png",
+//     "flatboy/png/Idle(15).png")
 
   player_img_run= loadAnimation("flatboy/png/Run(1).png","flatboy/png/Run(2).png","flatboy/png/Run(3).png","flatboy/png/Run(4).png",
     "flatboy/png/Run(5).png","flatboy/png/Run(6).png","flatboy/png/Run(7).png","flatboy/png/Run(8).png","flatboy/png/Run(9).png",
