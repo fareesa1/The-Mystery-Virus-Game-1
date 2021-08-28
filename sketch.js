@@ -32,25 +32,25 @@ function preload(){
   platformImg = loadImage("backgrounds/platform.png")
   
 
-  player_img= loadAnimation("flatboy/png/Idle (1).png","flatboy/png/Idle (2).png", "flatboy/png/Idle (3).png", "flatboy/png/Idle (4).png",
-     "flatboy/png/Idle(5).png", "flatboy/png/Idle (6).png","flatboy/png/Idle (7).png", "flatboy/png/Idle (8).png", "flatboy/png/Idle (9).png",
-     "flatboy/png/Idle (10).png", "flatboy/png/Idle (11).png", "flatboy/png/Idle (12).png", "flatboy/png/Idle (13).png", "flatboy/png/Idle (14).png",
-     "flatboy/png/Idle (15).png")
+  player_img= loadAnimation("flatboy/png/Idle(1).png","flatboy/png/Idle(2).png","flatboy/png/Idle(3).png","flatboy/png/Idle(4).png",
+    "flatboy/png/Idle(5).png","flatboy/png/Idle(6).png","flatboy/png/Idle(7).png","flatboy/png/Idle(8).png","flatboy/png/Idle(9).png",
+    "flatboy/png/Idle(10).png","flatboy/png/Idle(11).png","flatboy/png/Idle(12).png","flatboy/png/Idle(13).png","flatboy/png/Idle(14).png",
+    "flatboy/png/Idle(15).png")
 
-  player_Dead_img= loadAnimation("flatboy/png/dead(1).png","flatboy/png/dead(2).png", "flatboy/png/dead(3).png", "flatboy/png/dead(4).png",
-     "flatboy/png/dead (5).png", "flatboy/png/dead (6).png","flatboy/png/dead (7).png", "flatboy/png/dead (8).png", "flatboy/png/dead (9).png",
-     "flatboy/png/dead (10).png", "flatboy/png/dead (11).png", "flatboy/png/dead (12).png", "flatboy/png/dead (13).png", "flatboy/png/Idle (14).png",
-     "flatboy/png/Idle (15).png")
+  player_Dead_img= loadAnimation("flatboy/png/dead(1).png","flatboy/png/dead(2).png","flatboy/png/dead(3).png","flatboy/png/dead(4).png",
+    "flatboy/png/dead(5).png","flatboy/png/dead(6).png","flatboy/png/dead(7).png","flatboy/png/dead(8).png","flatboy/png/dead(9).png",
+    "flatboy/png/dead(10).png","flatboy/png/dead(11).png","flatboy/png/dead(12).png","flatboy/png/dead(13).png","flatboy/png/Idle(14).png",
+    "flatboy/png/Idle(15).png")
 
-  player_img_run= loadAnimation("flatboy/png/Run (1).png","flatboy/png/Run (2).png", "flatboy/png/Run (3).png", "flatboy/png/Run (4).png",
-     "flatboy/png/Run (5).png", "flatboy/png/Run (6).png","flatboy/png/Run (7).png", "flatboy/png/Run (8).png", "flatboy/png/Run (9).png",
-     "flatboy/png/Run (10).png", "flatboy/png/Run (11).png", "flatboy/png/Run (12).png", "flatboy/png/Run (13).png", "flatboy/png/Run (14).png",
-     "flatboy/png/Run (15).png")
+  player_img_run= loadAnimation("flatboy/png/Run(1).png","flatboy/png/Run(2).png","flatboy/png/Run(3).png","flatboy/png/Run(4).png",
+    "flatboy/png/Run(5).png","flatboy/png/Run(6).png","flatboy/png/Run(7).png","flatboy/png/Run(8).png","flatboy/png/Run(9).png",
+    "flatboy/png/Run(10).png","flatboy/png/Run(11).png","flatboy/png/Run(12).png","flatboy/png/Run(13).png","flatboy/png/Run(14).png",
+    "flatboy/png/Run(15).png")
 
-  player_img_jump= loadAnimation("flatboy/png/Jump (1).png","flatboy/png/Jump (2).png", "flatboy/png/Jump (3).png", "flatboy/png/Jump (4).png",
-     "flatboy/png/Jump (5).png", "flatboy/png/Jump (6).png","flatboy/png/Jump (7).png", "flatboy/png/Jump (8).png", "flatboy/png/Jump (9).png",
-     "flatboy/png/Jump (10).png", "flatboy/png/Jump (11).png", "flatboy/png/Jump (12).png", "flatboy/png/Jump (13).png", "flatboy/png/Jump (14).png",
-     "flatboy/png/Jump (15).png")
+  player_img_jump= loadAnimation("flatboy/png/Jump(1).png","flatboy/png/Jump(2).png","flatboy/png/Jump(3).png","flatboy/png/Jump(4).png",
+    "flatboy/png/Jump(5).png","flatboy/png/Jump(6).png","flatboy/png/Jump(7).png","flatboy/png/Jump(8).png","flatboy/png/Jump(9).png",
+    "flatboy/png/Jump(10).png","flatboy/png/Jump(11).png","flatboy/png/Jump(12).png","flatboy/png/Jump(13).png","flatboy/png/Jump(14).png",
+    "flatboy/png/Jump(15).png")
 
   dino1Animation = loadAnimation("Mini-Dinos/DinoSprites_doux-0/0.png","Mini-Dinos/DinoSprites_doux-0/1.png","Mini-Dinos/DinoSprites_doux-0/2.png",
      "Mini-Dinos/DinoSprites_doux-0/3.png","Mini-Dinos/DinoSprites_doux-0/4.png","Mini-Dinos/DinoSprites_doux-0/5.png","Mini-Dinos/DinoSprites_doux-0/6.png",
