@@ -1,7 +1,7 @@
 function movement(){
 
     if(placeHolder2 == 1 && player.isTouching(ground1)){
-        player.changeAnimation("dead", player_Dead_img)
+        player.changeAnimation("Run")
 
     }else if(keyIsDown(32) && gameState == "play"  && jumpCounter < maxJump){
         player.velocityY = -20
